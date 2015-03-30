@@ -6,7 +6,9 @@ KeyboardJS
 [ ![Downloads This Week](http://img.shields.io/npm/dm/keyboardjs.svg?style=flat) ](https://www.npmjs.org/package/keyboardjs)
 [ ![License](http://img.shields.io/npm/l/keyboardjs.svg?style=flat) ](https://www.npmjs.org/package/keyboardjs)
 
-[ ![Browser Support](https://ci.testling.com/RobertWHurst/KeyboardJS.png) ](https://ci.testling.com/RobertWHurst/KeyboardJS)
+Please note that is is a pre release version. It's not recomended for production
+use. The documentation is also incomplete, so your team is likely to mutiny on
+you for including this version,
 
 As most web developers and engineers know, setting up key combos for you
 web application can be a challenge. You can easily bind an event handler to
