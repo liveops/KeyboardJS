@@ -20,9 +20,6 @@
     "url": "git@github.com:RobertWHurst/KeyboardJS.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "type-guard": "^0.2.1"
-  },
   "devDependencies": {
     "browserify": "^6.0.2",
     "tap-spec": "^1.0.0",
