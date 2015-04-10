@@ -3,12 +3,15 @@
 var KeyboardJS = require('./lib/keyboard');
 var Locale = require('./lib/locale');
 var KeyCombo = require('./lib/key-combo');
-var usLocale = require('./locales/us');
+var locales = {
+  us: require('./locales/us');
+};
 
 var keyboardJS = new KeyboardJS();
-keyboardJS.setLocale(usLocale);
+keyboardJS.setLocale(locales.us);
 
 exports = module.exports = keyboardJS;
+exports.locales = locales;
 exports.KeyboardJS = KeyboardJS;
 exports.Locale = Locale;
 exports.KeyCombo = KeyCombo;
