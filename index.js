@@ -4,7 +4,7 @@ var KeyboardJS = require('./lib/keyboard');
 var Locale = require('./lib/locale');
 var KeyCombo = require('./lib/key-combo');
 var locales = {
-  us: require('./locales/us');
+  us: require('./locales/us')
 };
 
 var keyboardJS = new KeyboardJS();
