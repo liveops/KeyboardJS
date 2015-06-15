@@ -1,0 +1,10 @@
+{
+  "name": "KeyboardJS",
+  "version": "0.4.2",
+  "homepage": "https://github.com/liveops/KeyboardJS",
+  "main": "keyboard.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT"
+}
